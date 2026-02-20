@@ -94,6 +94,25 @@ output = x >= y # greater than or qual to comparison
 output = x ==y # equality check
 output = x != y # not equal to
 
+"""
+BOOLEAN OPERATORS: 
+    - and 
+    - or 
+    - not
+"""
+fruit = "orange"
+weather = "sunny"
+output = (fruit == "orange") and (weather != "rainy") # true and false
+
+age = 12
+weight = 20.5
+
+output = (age>18) and (weight<10) # false and false
+output = (age<18) or (weight<10) # true or false => True
+output = not ((age<18) or (weight<10)) # true or false => True
+
+
+
 
 
 
