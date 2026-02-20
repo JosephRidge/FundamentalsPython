@@ -88,9 +88,11 @@ x = 100
 y = 90 
 
 output = x < y # less than comparison
- 
-
-
+output = x > y # greater than
+output = x <= y # less than or equal to comparison
+output = x >= y # greater than or qual to comparison
+output = x ==y # equality check
+output = x != y # not equal to
 
 
 
