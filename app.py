@@ -111,9 +111,29 @@ output = (age>18) and (weight<10) # false and false
 output = (age<18) or (weight<10) # true or false => True
 output = not ((age<18) or (weight<10)) # true or false => True
 
+"""
+STRINGS: 
+    - list of characters
+    -  surrounded by either '', "" or """ """
+    - immutable 
 
+"""
 
+name ="@John#Doe"
+output = name
+output = type(name)
+output = name[1] #accessing an element using index position
+output = name[0:5] # slicing
+# output = name[2:]
+name = "Chronicals of Nania" 
+output = name [1: 8: 3]# slice with a step
 
+name = "Chronicals of Nania" 
+output = name.upper() # string methods
+output = name.lower()
+output = name.find("Nania")
+output = name[14:]
+output = name.count("a")
 
 
 
