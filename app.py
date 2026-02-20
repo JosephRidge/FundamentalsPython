@@ -75,8 +75,20 @@ x //=3 # same as x = x // 3
 x **=3 # same as x = x ** 3
 x %=3 # same as x = x % 3 
 
+"""
+COMPARISON OPERATORS: 
+    - greater than(>)
+    - less than (<)
+    - less than or equal to (<=)
+    - greater than or equal to (>=)
+    - equal to (==)
+    - not equal to (!=)
+"""
+x = 100
+y = 90 
 
-output = x
+output = x < y # less than comparison
+ 
 
 
 
