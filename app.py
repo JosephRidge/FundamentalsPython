@@ -36,7 +36,7 @@ output = numberOne
 output = numberTwo
 
 """
-ARITHMETIC OPERATIONS:
+ARITHMETIC OPERATORS:
     - addition(+)
     - subtraction(-)
     - multiplication(*)
@@ -48,7 +48,35 @@ ARITHMETIC OPERATIONS:
 x = 10 
 y = 12
 
-output = x + y # addition
+output = x + y  # addition
+output = x - y  # subtraction
+output = x * y  # multiplication
+output = x / y  # division
+output = x // y # floor division => truncated
+output = x % y  # modulus
+
+x = 20 
+y = 25
+output = x // y
+
+"""
+ASSIGNMENT OPERATORS: 
+    =, +=, *=, /=, **=, //=, %= 
+  
+"""
+
+x = 10 
+# x = x + 1 # addition
+# x +=1 # same as  x = x-1
+# x -= 1 # same as x = x-1
+x *= 3 # same as x = x * 3
+x /=3 # same as x = x / 3
+x //=3 # same as x = x // 3
+x **=3 # same as x = x ** 3
+x %=3 # same as x = x % 3 
+
+
+output = x
 
 
 
