@@ -217,10 +217,32 @@ def prepareEggs():
 prepareEggs()
 
 # parametrized function
+def welcomeHome(name):
+    jina = name
+    print(f"Welcome home {name}")
+
+
+x = 1 + 1 
+num = 20 + 39
+
+def addition(x, y):
+    total = x + y #local variable 
+    print(f"==>> {total}")
+
+welcomeHome("John")
+
+addition(24,24)
+ 
 
 
 
 
+puppyName = "Buddy"
+
+def takePetToVet(petName):
+    print(f"{petName} is headed to the VET!")
+
+takePetToVet(puppyName)
 
 
 
