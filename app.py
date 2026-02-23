@@ -135,6 +135,93 @@ output = name.find("Nania")
 output = name[14:]
 output = name.count("a")
 
+name = "Chronicals"
+
+location = "Nania"
+
+output = name + location # string concatenation
+location = "Nairobi"
+output = f"{name} {location}" # f-string
+
+output = "I am watching The "+name + " Of " + location
+output = f"I am awatching The {name} or {location}"
+
+name = "John Doe"
+age = 12
+hobby ="playing football"
+home = "Nairobi"
+school = "Emobilis"
+
+output = "My name is "+name+". I am " +str(age)+" yrs old! I love "+hobby+"."+ "I school in "+school 
+output = f"My name is {name} I am {age} yrs old! I love {hobby}I school in {school}"
+
+
+"""
+FUNCTIONS:
+    - Do something(single purpsoe group of statements)
+    - types: 
+        - lambda function (anonymous function)
+        - paramterized 
+        - non parameterized 
+"""
+# lambda: params: expression
+
+summation = lambda x,y,z : x+y+z
+output = summation(2,3,5)
+
+#  non-paramaterized functions: 
+# defining a function
+def greetings():
+    print("Good afternoon World")
+
+greetings() # calling a function
+
+
+# defining the function
+def checkWeather():
+    print("The weather today is chilly!")
+
+
+# call the function
+checkWeather()
+
+
+
+
+
+# HOUSE
+
+def washDishes():
+    print("tae soap")
+    print("soak the dishes ")
+    print("wash and rinse the dishes")
+
+
+def morningRoutine():
+    print("Get our of bed")
+    print("brush my teeth")
+    print("Drink water")
+    print("read a book")
+    print("do chores")
+    print("REST!")
+
+def prepareEggs():
+    print("crack 2 eggs")
+    print("separate the yolk")
+    print("warm the pan")  
+    print("pour tea spoon of cooking oil")  
+    print("preprare the egg yolk for 3 min on both sides")
+    print("EAT!")    
+
+# calling the function
+prepareEggs()
+
+# parametrized function
+
+
+
+
+
 
 
 
