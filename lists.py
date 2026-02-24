@@ -32,7 +32,6 @@ name = "Pete"
 students[3] = "Maria"
 output = students
 # name[0] = "R"
-
 colors = ["green","green", "green",  "blue", "blue","gray","purple","yellow"]
 output = colors.count("green") # check how many times has "green" been repeated
 
@@ -41,6 +40,10 @@ output = colors.count("green") # check how many times has "green" been repeated
 uniqueColors = {"green","green", "green",  "blue", "blue","gray","purple","yellow"}
 output = uniqueColors
 output = type(uniqueColors)
+
+#  Dictionaries
+
+
 
 
 print("===========================")
