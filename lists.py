@@ -38,9 +38,9 @@ output = colors.count("green") # check how many times has "green" been repeated
 
 
 # set: ==>
-
-
-
+uniqueColors = {"green","green", "green",  "blue", "blue","gray","purple","yellow"}
+output = uniqueColors
+output = type(uniqueColors)
 
 
 print("===========================")
