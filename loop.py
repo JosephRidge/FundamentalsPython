@@ -19,6 +19,6 @@ for number in range(5,10):
 start = 0
 stop = 10
 
-while(start<stop):
-    start+=1
+while(start <= stop):
     print(start)
+    start+=1
