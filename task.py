@@ -7,9 +7,7 @@ Print:
     Number of characters
     Number of vowels
 
-
 Check if the string is a palindrome
-
 """
 
 # name = input("Enter a your full name: ") # get input from user

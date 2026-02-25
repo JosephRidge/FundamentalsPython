@@ -42,6 +42,20 @@ output = uniqueColors
 output = type(uniqueColors)
 
 #  Dictionaries
+person = {
+    "name": "Jonathan",
+    "age": 12, 
+    "yob": 2021
+}
+
+pen = {
+    "color": "green",
+    "size": "small", 
+    "purpose":"coloring"
+}
+
+
+output = person["name"]
 
 
 
