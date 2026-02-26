@@ -94,7 +94,7 @@ class Shoe:
     def __init__(self, name, brand, purpose):
         self.name = name
         self.brand = brand
-        self.purpose = purpose 
+        self.__purpose = purpose 
 
     def walk(self):
         print("I am walking")
@@ -111,3 +111,6 @@ class RunningShoes(Shoe):
 nike = RunningShoes("walkers", "Nike", "running")
 
 nike.decribeShoe()
+print(nike.name)
+print(nike.brand)
+print(nike.purpose)
