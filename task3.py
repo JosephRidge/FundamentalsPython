@@ -80,5 +80,10 @@ for letter in userInput:
         case _:
             pass
 
-print(f"{userInput} has {vowelCount} vowels")
+# print(f"{userInput} has {vowelCount} vowels")
 
+# check if word is palindrome 
+if(userInput.lower() == userInput[::-1].lower()):
+    print("Its a palindrome!")
+else:
+    print("Try again!")
