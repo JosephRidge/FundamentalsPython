@@ -53,15 +53,61 @@ class Matatu:
     def driving(self):
         print("matatu is being driven")
 
-
 matatuWestlands = Matatu("M3Westland","blue",False,48) # object
-matatuWestlands.driving()
-matatuWestlands.describeMatatu()
+# matatuWestlands.driving()
+# matatuWestlands.describeMatatu()
 
-print("=====================================")
+# print("=====================================")
 matatuCBD = Matatu("M3CBD","green", False, 12)
-matatuCBD.driving()
-
+# matatuCBD.driving()
 output = matatuCBD.describeMatatu() 
+# print(output)
 
-print(output)
+
+"""
+INHERITANCE: 
+  - parent and a child. The child inherits
+   behaviors & attributes of the parent
+"""
+
+class Vehicle: 
+
+    def __init__(self, name, color, model, yom):
+        self.name = name
+        self.color = color
+        self.yom = yom 
+        self.model = model 
+
+    def drive(self):
+        print(f"I am driving my {self.model} and I call it {self.name}")
+
+    def hoot(self):
+        print("Hoot Hoot!")
+
+class Tuktuk(Vehicle):
+    pass 
+
+# tuktukNairobi = Tuktuk("RedSparrow", "red","toyota",2026)
+# tuktukNairobi.hoot()
+
+class Shoe:
+    def __init__(self, name, brand, purpose):
+        self.name = name
+        self.brand = brand
+        self.purpose = purpose 
+
+    def walk(self):
+        print("I am walking")
+    
+    def decribeShoe(self):
+        print(f"This shoe is of brand: {self.brand}")
+        print(f"This shoe is called: {self.name}")
+        print(f"This shoe is for: {self.purpose}")
+
+
+class RunningShoes(Shoe):
+    pass 
+
+nike = RunningShoes("walkers", "Nike", "running")
+
+nike.decribeShoe()
