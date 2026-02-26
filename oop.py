@@ -40,19 +40,28 @@ class Hobby:
 
 class Matatu:
     #  attributes
-    name = "Beast"
-    color = "indigo"
-    hasMusic = True
-    size = 24
+    def __init__(self, name, color, hasMusic, size):
+        self.name = name 
+        self.color = color 
+        self.hasMusic = hasMusic
+        self.size = size
 
     #  methods
     def describeMatatu(self):
-        print(f"Matatu {self.name}, is of color {self.color} and of a {self.size} seater ")
+        return f"Matatu {self.name}, is of color {self.color} and of a {self.size} seater "
 
     def driving(self):
         print("matatu is being driven")
 
 
-matatuOne = Matatu() # object
-matatuOne.driving()
-matatuOne.describeMatatu()
+matatuWestlands = Matatu("M3Westland","blue",False,48) # object
+matatuWestlands.driving()
+matatuWestlands.describeMatatu()
+
+print("=====================================")
+matatuCBD = Matatu("M3CBD","green", False, 12)
+matatuCBD.driving()
+
+output = matatuCBD.describeMatatu() 
+
+print(output)
